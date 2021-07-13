@@ -1,18 +1,41 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <div class="m-4">
+      <Filters />
+      <Albums :albums="albums" />
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import { mapGetters, mapActions } from 'vuex';
+
+import Albums from '@/components/Albums';
+import Filters from '@/components/Filters';
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
-  }
-}
+    Albums,
+    Filters,
+  },
+  data() {
+    return {};
+  },
+  computed: {
+    ...mapGetters(['filteredAlbums']),
+    albums() {
+      return this.filteredAlbums;
+    },
+  },
+  created() {
+    this.getAlbums();
+  },
+  methods: {
+    ...mapActions(['fetch_Albums']),
+    getAlbums() {
+      this.fetch_Albums();
+    },
+  },
+};
 </script>

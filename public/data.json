@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "band": "Isis",
+    "name": "Oceanic",
+    "format": "Tape",
+    "category": "Sludge",
+    "price": 6000,
+    "discount": 0,
+    "imgSrc": "img/isis-oceanic.jpg"
+  },
+  {
+    "id": 2,
+    "band": "Isis",
+    "name": "Panopticon",
+    "format": "CD",
+    "category": "Sludge",
+    "price": 10000,
+    "discount": 25,
+    "imgSrc": "img/isis-panopticon.jpg"
+  },
+  {
+    "id": 3,
+    "band": "Isis",
+    "name": "Wavering Radiant",
+    "format": "CD",
+    "category": "Sludge",
+    "price": 10000,
+    "discount": 0,
+    "imgSrc": "img/isis-wavering.jpg"
+  },
+  {
+    "id": 4,
+    "band": "Isis",
+    "name": "Temporal",
+    "format": "Vinilo",
+    "category": "Sludge",
+    "price": 20000,
+    "discount": 25,
+    "imgSrc": "img/isis-temporal.jpg"
+  },
+  {
+    "id": 5,
+    "band": "Neurosis",
+    "name": "Given to the Rising",
+    "format": "Vinilo",
+    "category": "Sludge",
+    "price": 20000,
+    "discount": 0,
+    "imgSrc": "img/neurosis-given.jpg"
+  },
+  {
+    "id": 6,
+    "band": "Neurosis",
+    "name": "The Eye of Every Storm",
+    "format": "Vinilo",
+    "category": "Sludge",
+    "price": 20000,
+    "discount": 0,
+    "imgSrc": "img/neurosis-eye.jpg"
+  },
+  {
+    "id": 7,
+    "band": "Neurosis",
+    "name": "A Sun That Never Sets",
+    "format": "CD",
+    "category": "Sludge",
+    "price": 10000,
+    "discount": 0,
+    "imgSrc": "img/neurosis-sun.jpg"
+  },
+  {
+    "id": 8,
+    "band": "Neurosis",
+    "name": "Times of Grace",
+    "format": "CD",
+    "category": "Sludge",
+    "price": 10000,
+    "discount": 25,
+    "imgSrc": "img/neurosis-times.jpg"
+  },
+  {
+    "id": 9,
+    "band": "Candlemass",
+    "name": "Epicus Doomicus Metallicus",
+    "format": "Vinilo",
+    "category": "Doom Metal",
+    "price": 20000,
+    "discount": 0,
+    "imgSrc": "img/candlemass-epicus.jpg"
+  },
+  {
+    "id": 10,
+    "band": "Candlemass",
+    "name": "Nightfall",
+    "format": "Tape",
+    "category": "Doom Metal",
+    "price": 6000,
+    "discount": 0,
+    "imgSrc": "img/candlemass-nightfall.jpg"
+  },
+  {
+    "id": 11,
+    "band": "Candlemass",
+    "name": "Ancient Dreams",
+    "format": "Tape",
+    "category": "Doom Metal",
+    "price": 6000,
+    "discount": 0,
+    "imgSrc": "img/candlemass-ancient.jpg"
+  },
+  {
+    "id": 12,
+    "band": "Candlemass",
+    "name": "Tales of Creation",
+    "format": "CD",
+    "category": "Doom Metal",
+    "price": 10000,
+    "discount": 25,
+    "imgSrc": "img/candlemass-tales.jpg"
+  },
+  {
+    "id": 13,
+    "band": "Joy Division",
+    "name": "Unknown Pleasures",
+    "format": "Vinilo",
+    "category": "Post Punk",
+    "price": 20000,
+    "discount": 0,
+    "imgSrc": "img/joy-division-unknown.jpg"
+  },
+  {
+    "id": 14,
+    "band": "Joy Division",
+    "name": "Closer",
+    "format": "Vinilo",
+    "category": "Post Punk",
+    "price": 20000,
+    "discount": 0,
+    "imgSrc": "img/joy-division-closer.jpg"
+  },
+  {
+    "id": 15,
+    "band": "Dynatron",
+    "name": "Escape Velocity",
+    "format": "Vinilo",
+    "category": "Synthwave",
+    "price": 20000,
+    "discount": 0,
+    "imgSrc": "img/dynatron-escape.jpg"
+  },
+  {
+    "id": 16,
+    "band": "Dynatron",
+    "name": "Aeternus",
+    "format": "Vinilo",
+    "category": "Synthwave",
+    "price": 20000,
+    "discount": 0,
+    "imgSrc": "img/dynatron-aeternus.jpg"
+  }
+]

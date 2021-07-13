@@ -1,0 +1,34 @@
+
+To do list:
+
+- Crear el proyecto
+- Crear 3 rutas correspondientes a: 
+
+	* formulario para agregar productos
+	* Catálogo de productos
+	* Carrito
+
+- En la vista del formulario agregué:
+
+	* 3 Inputs enlazados a un atributo "producto" en el estado
+	* Un botón con un evento click que ejecuta un método addProduct
+	* Importar mapActions ( para importar add_Product )
+	* En la ejecución del MËTODO(addProduct) se invoca la ACTION(add_Product) pasando como argumento el producto llenado en el formulario
+
+- En el store, agregar la action add_Product, la cual recibe como payload un "producto" y se lo pasa a la mutación "ADD_PRODUCT"
+- Agregar la mutación "ADD_PRODUCT", la cual recibe como payload un producto y lo agrega a un arreglo en el state llamado productos
+- Agregar en el state un atributo "productos", el cual tiene como valor inicial un ARREGLO VACÍO 
+
+- En Home, importar el mapState para obtener los productos del state( from vuex )
+- Ocupar un v-for para recorrer el arreglo productos y renderizarlos en la vista con un botón "añadir al carrito"
+- Agregar al boton de añadir un evento click que invoque un método addToCart pasando como argumento el INDICE del producto
+- El método addToCart invoca una ACTION add_To_Cart pasando como argumento el INDICE
+- En vuex, agregar una ACTION add_To_Cart que recibe como parámetro el INDICE y se lo pasa a una mutación llamada ADD_TO_CART
+- La mutación ADD_TO_CART recibe el índice, ubica el producto en el arreglo del state y pushea (.push -_-") el producto a un arreglo carrito del state
+- Agregar al state un atributo carrito, el cual tiene como valor inicial un ARREGLO VACÍO.
+
+- En la vista del Carrito, el template se parece un MONTON a la vista Home, en donde renderizamos productos pero en esta
+ocasión se debe iterar es el arreglo "carrito" del state, por lo cual, se debe importar del mapState es el 
+atributo "carrito".
+- El template en el del carrito se debe considerar incluir el total POR PRODUCTO!! y un TOTAL GENERAL a pagar
+
